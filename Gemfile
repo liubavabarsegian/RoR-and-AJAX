@@ -77,3 +77,5 @@ gem 'jquery'
 
 # jq rails gem
 gem 'jquery-rails'
+
+gem "rspec-rails", group: [:development, :test]
