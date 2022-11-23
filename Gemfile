@@ -70,3 +70,10 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+
+# jq gem
+gem 'jquery'
+
+# jq rails gem
+gem 'jquery-rails'

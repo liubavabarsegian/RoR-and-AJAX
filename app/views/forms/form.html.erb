@@ -1,0 +1,21 @@
+<main class = "form-main">
+    <div class = "form-container">
+        <h2>Задание:</h2> 
+        <p>Простое число называется числом Мерсенна, если оно может быть пред-
+        ставлено в виде 2p − 1, где p – тоже простое число. 
+        </p>
+        <p>Написать программу,
+        определяющую количество чисел Мерсенна ≤ некоторого n (n вводится с
+        клавиатуры).</p>
+        <p>Вывести на печать числа Мерсенна и их количество в ука-
+        занном диапазоне.</p>
+        <h2>Ввод</h2>
+        <%= form_tag("/forms/result.json", :method => 'get', remote: true, id: 'mersenne_form', class: 'form') do %>
+        <p><%= label_tag("Введите положительное число n") %></p>
+        <p><%= number_field_tag(:num, 0, class: 'form-control', min: 0, placeholder: '0') %></p>
+        <p><%= submit_tag("Найти числа Мерсена до n", :class => 'form-button') %></p>
+        <% end %>
+        <div id="result"></div>
+        <p><div id="counter"></div></p>
+        <p><div id="data"></div></p>
+</main>
