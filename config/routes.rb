@@ -3,9 +3,7 @@
 Rails.application.routes.draw do
   root 'articles#index'
 
-  get 'index' => 'articles#index'
-  get 'result' => 'forms#result'
-  get 'form' => 'forms#form'
+  get 'result', to: 'forms#result'
+  get 'form', to: 'forms#form'
   get 'forms/result'
-
 end
