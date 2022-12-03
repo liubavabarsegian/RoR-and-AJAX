@@ -1,24 +1,6 @@
-# README
+# ЛР9. AJAX
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Задание:
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* При помощи Javascript модифицировать код ЛР 8 таким образом, чтобы для отображения результатов вычисления браузер не выполнял полную перезагрузку страницы.
+* Сформировать тесты для проверки работы программы при помощи Katalon Recorder / Selenium Webdriver.
